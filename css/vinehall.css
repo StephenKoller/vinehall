@@ -1,11 +1,21 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:700);
 @import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 
-@font-face {
+/*@font-face {
 	font-family: 'Orator';
 	src: url('fonts/Orator.eot');
 	src: local('☺'), url('fonts/Orator.woff') format('woff'), url('fonts/Orator.ttf') format('truetype'), url('fonts/Orator.svg') format('svg');
-	font-weight: normal;
+}*/
+
+@font-face {
+  font-family: 'Orator';
+  src: url('fonts/Orator.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Orator.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Orator.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Orator.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Orator.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Orator.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
 	font-style: normal;
 }
 
